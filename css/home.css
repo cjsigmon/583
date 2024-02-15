@@ -1,3 +1,55 @@
+body {
+    margin: 0;
+}
+
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+nav {
+    background-color: gray;
+    width: 100vw;
+    height: 80px;
+}
+nav > h1 {
+    color: aliceblue;
+    text-shadow: 2px 2px 40px whitesmoke;
+    text-align: center;
+}
+
+select {
+    margin-bottom: 1em;
+}
+
+
+#personas {
+    width: 390px;
+    max-width: 95vw;
+}
+
+.w-100 {
+    width: 100vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.just-center {
+    display: flex;
+    justify-content: center;
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.persona {
+    background-color: gray;
+    height: 115px;
+    width: 115px;
+    margin: 5px;
 }
