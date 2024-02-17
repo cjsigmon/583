@@ -6,6 +6,13 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.coverall {
+    position: fixed;
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100vw;
+}
+
 
 nav {
     background-color: gray;
@@ -17,6 +24,24 @@ nav > h1 {
     text-shadow: 2px 2px 40px whitesmoke;
     text-align: center;
 }
+
+#launch-btn:hover {
+    cursor: pointer;
+}
+#launch-btn {
+    border: 0.4px solid rgb(90, 90, 90);
+    border-radius: 30px;
+    background-color: rgba(240, 248, 255, 0.188);
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    padding: 0 1rem 0  1rem;
+}
+
+
+
+
+
+
 
 select {
     margin-bottom: 1em;
@@ -31,6 +56,9 @@ select {
 .w-100 {
     width: 100vw;
 }
+.h-100 {
+    height: 100vh;
+}
 
 .flex {
     display: flex;
@@ -39,6 +67,11 @@ select {
 .just-center {
     display: flex;
     justify-content: center;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
 }
 
 .space-around {
